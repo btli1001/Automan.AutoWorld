@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A6671D71C9170F3005839BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6671D61C9170F3005839BD /* AppDelegate.swift */; };
+		4A6671D91C9170F3005839BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6671D81C9170F3005839BD /* ViewController.swift */; };
+		4A6671DE1C9170F3005839BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6671DD1C9170F3005839BD /* Assets.xcassets */; };
+		4A6671E11C9170F3005839BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6671DF1C9170F3005839BD /* LaunchScreen.storyboard */; };
+		4A6671EC1C9170F3005839BD /* AutoWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6671EB1C9170F3005839BD /* AutoWorldTests.swift */; };
+		4A6671F71C9170F3005839BD /* AutoWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6671F61C9170F3005839BD /* AutoWorldUITests.swift */; };
+		4A6672061C917302005839BD /* AWSceneMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6672051C917302005839BD /* AWSceneMaster.swift */; };
+		4A6672081C91789B005839BD /* AWSceneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6672071C91789B005839BD /* AWSceneTest.swift */; };
+		4A66720B1C918AF1005839BD /* TextureTestWood.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A66720A1C918AF1005839BD /* TextureTestWood.png */; };
+		4A66720D1C91928B005839BD /* AtlasTest.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4A66720C1C91928B005839BD /* AtlasTest.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A6671E81C9170F3005839BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6671CB1C9170F3005839BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A6671D21C9170F3005839BD;
+			remoteInfo = AutoWorld;
+		};
+		4A6671F31C9170F3005839BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6671CB1C9170F3005839BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A6671D21C9170F3005839BD;
+			remoteInfo = AutoWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A6671D31C9170F3005839BD /* AutoWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6671D61C9170F3005839BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A6671D81C9170F3005839BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A6671DD1C9170F3005839BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A6671E01C9170F3005839BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A6671E21C9170F3005839BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6671E71C9170F3005839BD /* AutoWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6671EB1C9170F3005839BD /* AutoWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoWorldTests.swift; sourceTree = "<group>"; };
+		4A6671ED1C9170F3005839BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6671F21C9170F3005839BD /* AutoWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6671F61C9170F3005839BD /* AutoWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoWorldUITests.swift; sourceTree = "<group>"; };
+		4A6671F81C9170F3005839BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6672051C917302005839BD /* AWSceneMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSceneMaster.swift; sourceTree = "<group>"; };
+		4A6672071C91789B005839BD /* AWSceneTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSceneTest.swift; sourceTree = "<group>"; };
+		4A66720A1C918AF1005839BD /* TextureTestWood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureTestWood.png; sourceTree = "<group>"; };
+		4A66720C1C91928B005839BD /* AtlasTest.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = AtlasTest.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A6671D01C9170F3005839BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6671E41C9170F3005839BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6671EF1C9170F3005839BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A6671CA1C9170F3005839BD = {
+			isa = PBXGroup;
+			children = (
+				4A6671D51C9170F3005839BD /* AutoWorld */,
+				4A6672091C918AD3005839BD /* Textures */,
+				4A6671EA1C9170F3005839BD /* AutoWorldTests */,
+				4A6671F51C9170F3005839BD /* AutoWorldUITests */,
+				4A6671D41C9170F3005839BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A6671D41C9170F3005839BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A6671D31C9170F3005839BD /* AutoWorld.app */,
+				4A6671E71C9170F3005839BD /* AutoWorldTests.xctest */,
+				4A6671F21C9170F3005839BD /* AutoWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A6671D51C9170F3005839BD /* AutoWorld */ = {
+			isa = PBXGroup;
+			children = (
+				4A6671D61C9170F3005839BD /* AppDelegate.swift */,
+				4A6671D81C9170F3005839BD /* ViewController.swift */,
+				4A6671DD1C9170F3005839BD /* Assets.xcassets */,
+				4A6671DF1C9170F3005839BD /* LaunchScreen.storyboard */,
+				4A6671E21C9170F3005839BD /* Info.plist */,
+				4A6672041C9172ED005839BD /* Scenes */,
+			);
+			path = AutoWorld;
+			sourceTree = "<group>";
+		};
+		4A6671EA1C9170F3005839BD /* AutoWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A6671EB1C9170F3005839BD /* AutoWorldTests.swift */,
+				4A6671ED1C9170F3005839BD /* Info.plist */,
+			);
+			path = AutoWorldTests;
+			sourceTree = "<group>";
+		};
+		4A6671F51C9170F3005839BD /* AutoWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A6671F61C9170F3005839BD /* AutoWorldUITests.swift */,
+				4A6671F81C9170F3005839BD /* Info.plist */,
+			);
+			path = AutoWorldUITests;
+			sourceTree = "<group>";
+		};
+		4A6672041C9172ED005839BD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4A6672051C917302005839BD /* AWSceneMaster.swift */,
+				4A6672071C91789B005839BD /* AWSceneTest.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		4A6672091C918AD3005839BD /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				4A66720C1C91928B005839BD /* AtlasTest.atlas */,
+				4A66720A1C918AF1005839BD /* TextureTestWood.png */,
+			);
+			name = Textures;
+			path = AutoWorld;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A6671D21C9170F3005839BD /* AutoWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6671FB1C9170F3005839BD /* Build configuration list for PBXNativeTarget "AutoWorld" */;
+			buildPhases = (
+				4A6671CF1C9170F3005839BD /* Sources */,
+				4A6671D01C9170F3005839BD /* Frameworks */,
+				4A6671D11C9170F3005839BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoWorld;
+			productName = AutoWorld;
+			productReference = 4A6671D31C9170F3005839BD /* AutoWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A6671E61C9170F3005839BD /* AutoWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6671FE1C9170F3005839BD /* Build configuration list for PBXNativeTarget "AutoWorldTests" */;
+			buildPhases = (
+				4A6671E31C9170F3005839BD /* Sources */,
+				4A6671E41C9170F3005839BD /* Frameworks */,
+				4A6671E51C9170F3005839BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6671E91C9170F3005839BD /* PBXTargetDependency */,
+			);
+			name = AutoWorldTests;
+			productName = AutoWorldTests;
+			productReference = 4A6671E71C9170F3005839BD /* AutoWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A6671F11C9170F3005839BD /* AutoWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6672011C9170F3005839BD /* Build configuration list for PBXNativeTarget "AutoWorldUITests" */;
+			buildPhases = (
+				4A6671EE1C9170F3005839BD /* Sources */,
+				4A6671EF1C9170F3005839BD /* Frameworks */,
+				4A6671F01C9170F3005839BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6671F41C9170F3005839BD /* PBXTargetDependency */,
+			);
+			name = AutoWorldUITests;
+			productName = AutoWorldUITests;
+			productReference = 4A6671F21C9170F3005839BD /* AutoWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A6671CB1C9170F3005839BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Automan;
+				TargetAttributes = {
+					4A6671D21C9170F3005839BD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4A6671E61C9170F3005839BD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4A6671D21C9170F3005839BD;
+					};
+					4A6671F11C9170F3005839BD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4A6671D21C9170F3005839BD;
+					};
+				};
+			};
+			buildConfigurationList = 4A6671CE1C9170F3005839BD /* Build configuration list for PBXProject "AutoWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A6671CA1C9170F3005839BD;
+			productRefGroup = 4A6671D41C9170F3005839BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A6671D21C9170F3005839BD /* AutoWorld */,
+				4A6671E61C9170F3005839BD /* AutoWorldTests */,
+				4A6671F11C9170F3005839BD /* AutoWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A6671D11C9170F3005839BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6671E11C9170F3005839BD /* LaunchScreen.storyboard in Resources */,
+				4A6671DE1C9170F3005839BD /* Assets.xcassets in Resources */,
+				4A66720B1C918AF1005839BD /* TextureTestWood.png in Resources */,
+				4A66720D1C91928B005839BD /* AtlasTest.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6671E51C9170F3005839BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6671F01C9170F3005839BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A6671CF1C9170F3005839BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6671D91C9170F3005839BD /* ViewController.swift in Sources */,
+				4A6672061C917302005839BD /* AWSceneMaster.swift in Sources */,
+				4A6672081C91789B005839BD /* AWSceneTest.swift in Sources */,
+				4A6671D71C9170F3005839BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6671E31C9170F3005839BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6671EC1C9170F3005839BD /* AutoWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6671EE1C9170F3005839BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6671F71C9170F3005839BD /* AutoWorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A6671E91C9170F3005839BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A6671D21C9170F3005839BD /* AutoWorld */;
+			targetProxy = 4A6671E81C9170F3005839BD /* PBXContainerItemProxy */;
+		};
+		4A6671F41C9170F3005839BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A6671D21C9170F3005839BD /* AutoWorld */;
+			targetProxy = 4A6671F31C9170F3005839BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A6671DF1C9170F3005839BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A6671E01C9170F3005839BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A6671F91C9170F3005839BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A6671FA1C9170F3005839BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A6671FC1C9170F3005839BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AutoWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = automan.AutoWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A6671FD1C9170F3005839BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AutoWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = automan.AutoWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A6671FF1C9170F3005839BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = automan.AutoWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoWorld.app/AutoWorld";
+			};
+			name = Debug;
+		};
+		4A6672001C9170F3005839BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = automan.AutoWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoWorld.app/AutoWorld";
+			};
+			name = Release;
+		};
+		4A6672021C9170F3005839BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = automan.AutoWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoWorld;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4A6672031C9170F3005839BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = automan.AutoWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoWorld;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A6671CE1C9170F3005839BD /* Build configuration list for PBXProject "AutoWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6671F91C9170F3005839BD /* Debug */,
+				4A6671FA1C9170F3005839BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6671FB1C9170F3005839BD /* Build configuration list for PBXNativeTarget "AutoWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6671FC1C9170F3005839BD /* Debug */,
+				4A6671FD1C9170F3005839BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A6671FE1C9170F3005839BD /* Build configuration list for PBXNativeTarget "AutoWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6671FF1C9170F3005839BD /* Debug */,
+				4A6672001C9170F3005839BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A6672011C9170F3005839BD /* Build configuration list for PBXNativeTarget "AutoWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6672021C9170F3005839BD /* Debug */,
+				4A6672031C9170F3005839BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A6671CB1C9170F3005839BD /* Project object */;
+}
